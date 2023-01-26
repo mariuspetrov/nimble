@@ -1,22 +1,43 @@
-# Nimble - The lightweight frontend framework.
 
-Nimble is a web development framework that is designed to make building responsive and dynamic web applications quick and easy. 
+# Nimble - The lightweight frontend boilerplate.
 
-Its lightweight nature allows for fast and efficient development, without compromising on functionality. With its custom folder structure and use of HTML, CSS, JavaScript and PHP, it provides a clear separation of concerns and makes it easy to maintain and scale projects as they grow. 
+<br/>
 
-The framework comes with built-in support for popular tools and libraries, streamlining the development process and helping developers focus on creating great user experiences. Its ease of use makes it perfect for developers of all skill levels, from beginners to experts. 
+<table>
+<tr>
+<td width="350px">
+<img src="https://github.com/mariuspetrov/nimble/blob/main/app/images/nimble_350px.jpg" alt="nimble-engineer" width="350px"/>
+</td>
+  
+<td>
+<h2 align="center">Simplifying Web Development</h2> 
+<p align="center">Introducing Nimble: <br> a comprehensive, lightweight boilerplate for streamlining the development of responsive and dynamic web applications</p> 
+<p align="center">v.1.0</p>
+</td>
+</tr>
+</table>
 
-With Nimble, developers can spend less time on setup and configuration and more time creating and implementing their ideas.
+
+
+<br/>
+
+## Description
+> What Nimble is and what it does?
+* Nimble is a lightweight web development boilerplate that simplifies building responsive and dynamic web applications.
+* It uses a custom folder structure and separates concerns using HTML, CSS, JavaScript, PHP, making it easy to maintain and scale projects.
+* It provides built-in support for popular tools and libraries simplifying the development process.
+* Suitable for developers of all skill levels, from beginners to experts.
+* Allows developers to spend less time on setup and configuration and more time on creating and implementing their ideas.
 
 <br/>
 
 ## Quickstart guide
 
 > To use this Git repository, follow these steps:
-* Obtain a copy of the repository by either cloning or downloading it onto your computer
-* Make sure you have Node.js installed on your computer. If not, you can download it from the official website (https://nodejs.org/en/)
-* Use the command `npm install` to install the necessary dependencies
-* Use the command `gulp bs` to run the tasks set up in the gulpfile.js and to automate the process of updating the browser 
+* Obtain a copy of the repository by either cloning or downloading it onto your computer.
+* Make sure you have Node.js installed on your computer. If not, you can download it from the official website (https://nodejs.org/en/).
+* Use the command `npm install` to install the necessary dependencies.
+* Use the command `gulp bs` to run the tasks set up in the gulpfile.js and to automate the process of updating the browser.
 
 <br/>
 
