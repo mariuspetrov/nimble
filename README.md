@@ -11,7 +11,7 @@
   
 <td>
 <h2 align="center">Simplifying Web Development</h2> 
-<p align="center">Introducing Nimble: <br> a comprehensive, lightweight boilerplate for streamlining the development of responsive and dynamic web applications</p> 
+<p align="center">Introducing Nimble: <br> a lightweight boilerplate for streamlining the development of responsive and dynamic web applications</p> 
 <p align="center">v.1.0</p>
 </td>
 </tr>
