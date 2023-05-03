@@ -52,9 +52,6 @@ function cacheBustTask() {
 function browserSyncServe(cb) {
 	// initializes browsersync server
 	browsersync.init({
-		// server: {
-		// 	baseDir: './',
-		// },
 		proxy: "localhost/nimble/",
 		notify: {
 			styles: {
