@@ -37,6 +37,7 @@
 * Obtain a copy of the repository by either cloning or downloading it onto your computer.
 * Make sure you have Node.js installed on your computer. If not, you can download it from the official website (https://nodejs.org/en/).
 * Use the command `npm install` to install the necessary dependencies.
+* You will also need to set up a PHP development environment using XAMPP. You would need to ensure that this repository folder is located within the "htdocs" folder of the XAMPP server.
 * Use the command `gulp bs` to run the tasks set up in the gulpfile.js and to automate the process of updating the browser.
 
 <br/>
