@@ -4,13 +4,14 @@
   "description": "nimble is a lightweight web development framework.",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp bs"
+    "start": "gulp bs",
+    "reinstall": "rm -rf node_modules && npm cache clean --force && npm install"
   },
   "author": "mariuspetrov.dev",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "gulp-dart-sass": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
@@ -20,7 +21,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^10.0.0",
     "gulp-replace": "^1.1.4",
-    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser": "^2.1.0",
     "postcss": "^8.4.47",

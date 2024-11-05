@@ -2,7 +2,7 @@
 // Importing specific gulp API functions lets us write them below as series() instead of gulp.series()
 const { src, dest, watch, series, parallel } = require('gulp');
 // Importing all the Gulp-related packages we want to use
-const sass = require('gulp-sass')(require('sass'));
+const dartSass = require('gulp-dart-sass');
 const concat = require('gulp-concat');
 const terser = require('gulp-terser');
 const postcss = require('gulp-postcss');
@@ -21,7 +21,7 @@ const files = {
 // Sass task: compiles the style.scss file into style.css
 function scssTask() {
 	return src(files.scssPath, { sourcemaps: true }) // set source and turn on sourcemaps
-		.pipe(sass()) // compile SCSS to CSS
+		.pipe(dartSass()) // compile SCSS to CSS
 		.pipe(postcss([autoprefixer(), cssnano()])) // PostCSS plugins
 		.pipe(dest('dist', { sourcemaps: '.' })); // put final CSS in dist folder with sourcemap
 }
