@@ -1,8 +1,4 @@
-@import "1-functionality/vars";
-@import "1-functionality/mixins";
-@import "1-functionality/fonts";
-
-@import "2-layout/body";
-@import "2-layout/header";
-@import "2-layout/main";
-@import "2-layout/footer";
+@use "1-functionality/functionality";
+@use "2-layout/layout";
+@use "3-components/components";
+@use "4-modules/modules";
