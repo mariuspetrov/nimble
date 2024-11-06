@@ -12,7 +12,7 @@
 <body>
 
 <?php include("app/layout/overall_header.php"); ?>
-<?php include("app/views/" . $section . ".php"); ?>
+<?php include("app/pages/" . $section . ".php"); ?>
 <?php include("app/layout/overall_footer.php"); ?>
 
 <?php include("app/layout/overall_bottom.php"); ?>

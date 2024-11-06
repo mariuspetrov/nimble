@@ -1,18 +1,14 @@
 <?php
 switch ($section) {
-    case 'homepage':
-        $metaTitle = 'Homepage';
+    case 'home':
+        $metaTitle = 'Home';
         $metaDescription = 'Lorem ipsum dolor sit amet.';
         break;
-    case 'about-us':
+    case 'about':
         $metaTitle = 'About us';
         $metaDescription = 'Lorem ipsum dolor sit amet.';
         break;
-    case 'services':
-        $metaTitle = 'Services';
-        $metaDescription = 'Lorem ipsum dolor sit amet.';
-        break;
-    case 'contact':
+   case 'contact':
         $metaTitle = 'Contact';
         $metaDescription = 'Lorem ipsum dolor sit amet.';
         break;

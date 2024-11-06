@@ -1,0 +1,7 @@
+@use '../abstracts/index-abstracts' as *;
+
+.button {
+    background-color: $secondary-color;
+    padding: 1rem;
+    border-radius: 4px;
+}

@@ -1,4 +1,63 @@
-@use "1-functionality/functionality";
-@use "2-layout/layout";
-@use "3-components/components";
-@use "4-modules/modules";
+/*
+scss/
+│
+├── abstracts/         // SCSS variables, functions, mixins, and placeholders
+│   ├── _variables.scss
+│   ├── _functions.scss
+│   ├── _mixins.scss
+│   └── _placeholders.scss
+│
+├── base/              // Basic style definitions that are applied globally
+│   ├── _reset.scss    // CSS Reset or Normalize
+│   ├── _typography.scss
+│   └── _base.scss     // General base styles (html, body, etc.)
+│
+├── components/        // Small UI components, such as buttons and form controls
+│   ├── _button.scss
+│   ├── _card.scss
+│   └── _form.scss
+│
+├── layout/            // Layout and structure for major parts of the site
+│   ├── _header.scss
+│   ├── _footer.scss
+│   ├── _main.scss
+│   ├── _grid.scss
+│   └── _sidebar.scss
+│
+├── pages/             // Styles specific to individual pages
+│   ├── _home.scss
+│   ├── _about.scss
+│   └── _contact.scss
+│
+├── themes/            // Theme or color scheme definitions
+│   ├── _light-theme.scss
+│   └── _dark-theme.scss
+│
+├── vendors/           // Third-party libraries or frameworks (if not imported via npm)
+│   ├── _bootstrap.scss
+│   └── _owl-carousel.scss
+│
+└── style.scss          // Main file importing all partials
+*/
+
+
+// Use abstracts
+@use 'abstracts/index-abstracts' as *;  // Expose all items in `abstracts` directly (e.g., variables)
+
+// Use base styles
+@use 'base/index-base';
+
+// Use layout
+@use 'layout/index-layout';
+
+// Use components
+@use 'components/index-components';
+
+// Use pages
+@use 'pages/index-pages';
+
+// Use themes
+@use 'themes/index-themes';
+
+// Use vendors
+@use 'vendors/index-vendors';
