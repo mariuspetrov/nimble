@@ -15,7 +15,7 @@ $base_href = $global_root;
 
 
 $section = $_GET['section'] ?? 'homepage';
-if (!empty($section) && !is_file("app/views/{$section}.php")) {
+if (!empty($section) && !is_file("app/pages/{$section}.php")) {
     $section = 'homepage';
 }
 
